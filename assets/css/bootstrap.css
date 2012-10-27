@@ -163,7 +163,7 @@ body {
   font-size: 14px;
   line-height: 20px;
   color: #333333;
-  background-color: #ffffff;
+  background-color: #E3ECED;
 }
 
 a {
@@ -717,7 +717,7 @@ ol ul {
 }
 
 li {
-  line-height: 20px;
+  line-height: 28px;
 }
 
 ul.unstyled,
@@ -850,6 +850,15 @@ address {
 .marketing {
   text-align: center;
   color: #5a5a5a;
+}
+.marketing .block {
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #F0F4F4;
+  border: 1px solid #D1D1D1;
+  -webkit-border-radius: 6px;
+     -moz-border-radius: 6px;
+          border-radius: 6px;
 }
 .marketing h1 {
   margin: 60px 0 10px;
@@ -4225,7 +4234,7 @@ input[type="submit"].btn.btn-mini {
 .navbar .brand {
   display: block;
   float: left;
-  padding: 10px 20px 10px;
+  padding: 5px 20px 5px;
   margin-left: -20px;
   font-size: 20px;
   font-weight: 200;
@@ -4596,9 +4605,9 @@ input[type="submit"].btn.btn-mini {
 
 .navbar-inverse .navbar-inner {
   background-color: #1b1b1b;
-  background-image: -moz-linear-gradient(top, #222222, #111111);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#222222), to(#111111));
-  background-image: -webkit-linear-gradient(top, #222222, #111111);
+  background-image: -moz-linear-gradient(top, #222222, #181721);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#222222), to(#181721));
+  background-image: -webkit-linear-gradient(top, #222222, #181721);
   background-image: -o-linear-gradient(top, #222222, #111111);
   background-image: linear-gradient(to bottom, #222222, #111111);
   background-repeat: repeat-x;
@@ -4627,7 +4636,7 @@ input[type="submit"].btn.btn-mini {
 .navbar-inverse .nav .active > a:hover,
 .navbar-inverse .nav .active > a:focus {
   color: #ffffff;
-  background-color: #111111;
+  background-color: #181721;
 }
 
 .navbar-inverse .navbar-link {
@@ -5757,12 +5766,12 @@ a.badge:hover {
 }
 
 .hero-unit {
-  padding: 60px;
+  padding: 40px;
   margin-bottom: 30px;
-  background-color: #eeeeee;
-  -webkit-border-radius: 6px;
+  background-color: #07232C;
+  /*-webkit-border-radius: 6px;
      -moz-border-radius: 6px;
-          border-radius: 6px;
+          border-radius: 6px;*/
 }
 
 .hero-unit h1 {
@@ -5770,14 +5779,15 @@ a.badge:hover {
   font-size: 60px;
   line-height: 1;
   letter-spacing: -1px;
-  color: inherit;
+  color: #CCCCCC;
 }
 
 .hero-unit p {
   font-size: 18px;
   font-weight: 200;
-  line-height: 30px;
-  color: inherit;
+  line-height: 50px;
+  text-align: center;
+  color: #CCCCCC;
 }
 
 .pull-right {
